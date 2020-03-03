@@ -23,3 +23,8 @@ python3 main.py   | windows
 chmod +x main.py && ./main.py | Linux
 
 have fun :3
+
+
+EDIT :
+LiveRPG.json.example (is a example how the game can look like if you added some skills)
+LiveRPG.json <<-- savegame File (better create a backup at start if you want to RESET All)
