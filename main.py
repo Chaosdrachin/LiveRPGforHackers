@@ -2,7 +2,7 @@
 
 #
 # Autor   : Wyv3rn
-# Version : 1.5.0
+# Version : 0.5.0
 #
 
 # Imports
@@ -63,10 +63,10 @@ def LevelUpSkill(data):
                 item['exp'] = 0
                 item['level'] += 1
                 del data[i]
-                if(data[0]['expgained'] >= data[0]['nextLevelIn']):
+             if(data[0]['expgained'] >= data[0]['nextLevelIn']):
                    data[0]['playerlevel']  += 1
                    data[0]['nextLevelIn'] += 1500
-                data = item
+             data[1:] = item
        else:
          break
        i += 1
